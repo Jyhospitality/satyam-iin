@@ -1,0 +1,472 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px){
+    #home-contact{
+		height:550px;
+	}
+	#facilities{
+		height:550px;
+	}
+	.nav-is-overlay .page-title-1.image-bg:first-child {
+		height: 560px;
+	}
+	.page-title-1 {
+		height: 630px !important;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 768px){
+	.img_list img {
+		left: 4%;
+	}
+	.text-tabs .tab-title{
+		padding:0 10px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.parallax > .vh-responsive{
+		height:28vh;
+	}
+	.text-tabs .tab-title{
+		padding:0 10px;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px){
+	.amenities-list li{
+		width:48%;
+		display:inline-block;
+	}
+	.image-square > .content{
+		padding: 10% 5%;
+	}
+	.image-square{
+		padding-bottom: 0px;
+	}
+	.image-square .image{
+		margin-bottom:0px;
+	}
+	.home-owners .feature-3{
+		min-height:163px;
+	}
+	.about-page .feature-1{
+		height:408px;
+	}
+}
+@media only screen and (max-width: 960px) {
+	  /*your CSS Rules*/
+	  .search-desktop{
+		  display:none;
+	  }
+	  .module.widget-handle{
+		  line-height:83px;
+	  }
+	  .widget-handle .search-desktop{
+		  display:none;
+	  }
+	  .widget-handle .function{
+		  display:none;
+	  }
+	  .search-mobile{
+		  display:block;
+	  }
+	.bordered_zoom:after {
+		top: 25px;
+		left: 25px;
+		right: 25px;
+		bottom: 25px;
+	}
+	.bordered_zoom:before {
+		border: 25px solid rgba(255,255,255,0.3);
+	}
+	.process-icon::after{
+		display:none;
+	}
+	.image-square-1 {
+		height: auto;
+	}
+	.module.widget-handle {
+		line-height: 35px;
+		max-height: 40px;
+	}
+  select{
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+   .feature h1.large{
+	   font-size:36px;
+	   margin-bottom:6px;
+   }
+   .aboutus-img img{
+		width:250px;
+	}
+
+	.left-padding{
+		padding-left:15px;
+	}
+
+	.right-padding{
+		padding-right:15px;
+	}
+	.booking-photo {
+		margin-top: 2em;
+	}
+  ul.tripadvisor-logos li {
+      display: inline-block;
+      float: left;
+      margin-top: 0;
+      width: 25%;
+  }
+  .widget_nav_menu ul > li a{
+  float:left;
+  margin:5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+	.cover-mobile{
+		padding:120px !important;
+	}
+	.img_list {
+		width: 100%;
+		margin: auto;
+	}
+	.tour_list_desc {
+		padding: 0 15px;
+		border-right: none;
+		height: auto;
+	}
+	.img_list img {
+		left: 0;
+		width: 100%;
+		height: auto;
+		top: -45%;
+	}
+	.strip_all_tour_list {
+		text-align: center;
+	}
+	.price_list {
+		display: block;
+		height: auto;
+		margin-left: 0;
+		text-align: center;
+		padding: 25px 0 15px;
+	}
+	.price_list div {
+		display: block;
+		text-align: center;
+	}
+	#single_room_feat ul {
+		display: block;
+		margin-bottom: 10px;
+	}
+	#single_room_feat ul li {
+		display: inline-block;
+		width: auto;
+		font-size: 11px;
+	}
+	.x_tlt{
+		font-size:40px;
+	}
+	#booknow-desktop{
+		display:none;
+	}
+	.booknow-mobile{
+		display:block;
+	}
+  #mobile_booknow {
+    display: block;
+}
+	nav.fixed, nav.absolute{
+		z-index:3;
+	}
+	.about-page .feature.boxed{
+		min-height:auto;
+	}
+	.nav-bar-container .nav-bar-border{
+		width: 10%
+	}
+	.nav-bar-container{
+		width: 10%;
+		right: 0;
+	}
+	.footer-img {
+		margin-top: -30px;
+		/*margin-bottom: 25px;*/
+	}
+	.home-owners .feature-3 .left{
+		width:15%;
+	}
+	.home-owners .feature-3 .right{
+		width:85%;
+	}
+	.about-page .feature-1 img{
+		margin-bottom:15px;
+	}
+	.internal--lamina__image__insert{
+		background-position: 36% 100% !important;
+		background-size: 100% !important;
+		background-attachment:initial !important;
+	}
+	
+	.apartments-header h2 {
+		line-height: 35px;
+	}
+	.cover.fullscreen .slides li{
+		padding: 20px 0;
+	}
+	.heading_group_sc .background_title{
+		top:-30px;
+	}
+  h2.heading{
+    line-height: 70px;
+  }
+  .p-box br{
+    display: block;
+  }
+  .rateModalBtn {
+    top: 210px!important;
+}
+}
+
+@media only screen and (max-width: 680px) {
+	.layer-container .menu-layer, .layer-container .search-layer, .layer-container .user-layer{
+		top:0px;
+		height:100%;
+	}
+	.menu-layer.active{
+		z-index:3;
+	}
+	.price_list ul li{
+		display:inline-block;
+		border:1px dashed #CCC;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	.aboutus-img img{
+		width:300px;
+	}
+
+	.article-box .no-gutter{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.logo{
+		width: 180px;
+	}
+	#slider-rooms .pagemid{
+		padding:2em 0;
+	}
+	.fp-tableCell{
+		vertical-align:inherit;
+	}
+	.fs-vid-background{
+		display:block !Important;
+	}
+	.mobile-video{
+		display:block;
+	}
+	.vid-bg{
+	}
+	.copyright{
+		bottom:80px;
+	}
+	.heading_group_sc .background_title{
+		font-size:50px;
+	}
+	.pagecontent{
+		margin-top:0px;
+	}
+	.foot-social div.row{
+		margin-bottom:30px;
+	}
+	#chat-circle{
+		bottom: -25px;
+		right: -7px;
+	}
+	#leading h2{
+		line-height:30px;
+	}
+	.nav-menu.active{
+		border-left:none;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	.img_list img {
+		left: 0;
+		width: 100%;
+		height: auto;
+		top: -5%;
+	}
+	.tab-content .feature{
+		margin-bottom:3em;
+	}
+	.text-tabs .tab-title span{
+		letter-spacing:0px;
+	}
+	.add-sevices{
+		padding:1em;
+	}
+	.visible-x{
+		display:block;
+	}
+	
+	.dubai-content p{
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.price_list ul li img {
+		width: 22px !Important;
+		height: 22px !Important;
+	}
+	.img_list  img{
+		top:5%;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+    .aboutus-img img{
+		width:250px;
+	}
+	.fw-icon-title-text{
+		font-size:15px;
+	}
+	.price_list ul li{
+		padding:5px;
+	}
+  .p-box{
+    text-align: left!important;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : landscape) {
+	.amenities-list li {
+		width: 48%;
+		display: inline-block;
+	}
+	.video-title {
+		font-size: 60px!important;
+		line-height: 80px;
+	}
+
+	#home-contact{
+		height:300px;
+	}
+
+	#guest-speak{
+		height:300px;
+	}
+
+	#book-your-stay{
+		height:300px;
+	}
+	#welcome-capella{
+		height:300px;
+	}
+	.heading_group_sc .background_title {
+		font-size: 72px;
+	}
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+	.price_list ul li{
+		display:inline-block;
+		border:1px dashed #CCC;
+	}
+	.column3-landscape{
+		width:33%;
+		float:left;
+	}
+	.column4-landscape{
+		width:25%;
+		float:left;
+	}
+	.column8-landscape{
+		width:75%;
+		float:left;
+	}
+	.column6-landscape{
+		width:50%;
+		float:left;
+	}
+	.text-tabs .tab-title span{
+		letter-spacing:0px;
+		font-size: 11px;
+	}
+	.text-tabs .tab-title {
+		padding: 0 7px;
+	}
+	.text-tabs .tabs li{
+		width: 24%;
+	}
+	.image-square > .content {
+		padding: 15% 25px;
+	}
+	.image-square{
+		padding-bottom:0px;
+	}
+	.image-square .image{
+		margin-bottom:0px;
+	}
+	.add-sevices{
+		min-height:250px;
+	}
+	.home-owners .feature-3{
+		min-height:190px;
+	}
+
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:780px) and (orientation:landscape) {
+  #booknow-desktop{
+		display:none;
+	}
+	.booknow-mobile{
+		display:none;
+	}
+  #mobile_booknow {
+    display: block!important;
+}
+#style_switcher{
+  top: 0;
+}
+#style_switcher_toggle{
+  top:0;
+}
+}
+
+@media only screen
+and (min-device-width : 670px)
+and (max-device-width : 960px)  {
+
+	.paymentoption ul li{
+		width:auto;
+	}
+	.paymentoption ul li img{
+		width:70px;
+		height:auto;
+	}
+	.footer-img{
+		float:left;
+	}
+
+}

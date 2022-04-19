@@ -1,0 +1,439 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 2560px){
+
+    /* for laptop..*/
+    #homeservices{
+  		margin-top: -85px !important;
+  	}
+
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px){
+    .h-bg {
+		height: 530px;
+	}
+	.h-slider{
+		height: 530px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1140px){
+
+    /* for laptop..*/
+    #homeservices{
+  		margin-top: -105px !important;
+  	}
+
+}
+
+@media only screen and (max-width: 1025px) {
+	#homeservices{
+		margin-top: -80px !important;
+	}
+	.nav>li>a{
+		padding:10px;
+	}
+	.mobile-play-btn{
+		display:block;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+
+}
+@media only screen and (max-width: 960px) {
+  .mleft-m{
+      margin-left: -15px;
+  }
+  .pt-m40{
+      padding-top: 40%;
+  }
+  .pt-m40 img{
+    float: right;
+  }
+  .pt-ipad{
+    padding-top: 20%;
+  }
+	#homeservices {
+		margin-top: -105px !important;
+	}
+	.padding-top-275 {
+		padding-top: 190px;
+	}
+	.specialties-section:before{
+		display:none;
+	}
+	/*.padding-left-125 {
+		padding-left: 25px;
+	}*/
+  .padding-left-m60{
+    padding-left: 30%;
+  }
+	.padding-top-65 {
+		padding-top: 0px;
+    padding-left: 0;
+	}
+	/*.min-height-550 {
+		min-height: auto;
+	}*/
+	nav.fixed, nav.absolute{
+		left:65px;
+		width:initial;
+	}
+}
+@media only screen and (max-width: 768px) {
+#style_switcher_toggle{
+  /* left: -65px;
+  width: 90px;
+  height: 40px; */
+  left: -35px;
+  width: 30px;
+  height: 40px;
+  padding: 5px 5px;
+  font-size: 12px;
+ }
+ .switcher_active #style_switcher_toggle {
+    /* padding: 5px 5px; */
+}
+.percentagehome{
+  width: 70px !important;
+  height: 70px !important;
+  line-height:65px !important;
+}
+.percentagehome img{
+  width: 100px!important;
+}
+.homeservice p img{
+  width: 95px!important;
+}
+.homeservice:hover{
+  background-color: transparent;
+  box-shadow: none;
+}
+.homeservice:hover .imgserviceopen {
+    opacity: 0;
+  }
+.specialties-right .section-title{
+padding-left: 0;
+padding-right: 0;
+padding-top: 0;
+}
+
+.specialties-right .section-title img {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.section-title h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+.specialties-section .container .row{
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+.order-md-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}
+.order-md-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.slider-margin-top {
+    margin-top: 0;
+}
+.styled-block.type-3 {
+    border-color:transparent !important;
+}
+.banner-text .mobile-play-btn{
+position: relative;
+bottom: 25px;
+}
+.banner-text{
+  font-size: 56px;
+ margin-bottom: 0;
+}
+.back-to-top{
+  display: none!important;
+}
+.padding-top-110 {
+
+    padding-top: 50px !important;
+
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.nav-bar-container .nav-bar-border{
+		width: 0;
+	}
+	.nav-bar-container{
+		left:0;
+	}
+	nav.fixed, nav.absolute{
+		left:50px;
+	}
+	.logo{
+		width: auto;
+		height: 62px;
+	}
+	.menu-layer.active {
+		z-index: 8;
+	}
+	.menu-layer{
+		left:66px;
+	}
+	.layer-container .menu-layer, .layer-container .search-layer, .layer-container .user-layer{
+		left: 66px;
+		top: 0;
+		width: 317px;
+		height: 100%;
+	}
+	.overlay.overlay-nav{
+		width:382px;
+	}
+	.min-height-550 {
+		min-height: 570px;
+	}
+	#CDSWIDEXC.widEXC .widEXCLINK {
+		padding: 13px 9px 0 9px;
+	}
+	.book-menu .content img{
+		display:none;
+	}
+	.something-fishy .dining-concept ul li{
+		vertical-align:middle;
+		display: table-cell;
+	}
+	.something-fishy .dining-concept ul li:first-child{
+		display:inline-block;
+	}
+	.book-menu .content span{
+		padding-left:10px;
+		display:inline-block;
+	}
+
+}
+
+@media only screen and (max-width: 680px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+  /* contact header message */
+  #each_enquiry .form-error, .form-success{
+        padding: 4px 0;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+  }
+  #each_enquiry .contact-header h4{
+    line-height: 45px;
+  }
+  #each_enquiry .form-group{
+    margin-bottom: 8px;
+  }
+  #each_enquiry .btn{
+    min-width: 120px;
+  }
+  ul.tripadvisor-logos li{
+    width: 50%;
+  }
+  .heading_group_sc .background_title{
+    font-size: 1.5em!important;
+  }
+  /* .banner-text{
+    font-size: 55px;
+   margin-bottom: 0;
+  } */
+  .padding-left-118 {
+    /* padding-left: 50px; */
+    padding-left: 0;
+  }
+  .margin-minus-left-120 {
+    /* margin-left: -60px; */
+    margin-left: 0;
+  }
+  .padding-left-m60 {
+    padding-left: 60px!important;
+  }
+  .padding-top-220 {
+    padding-top: 185px;
+  }
+  .tunga-footer{
+    padding-bottom: 30px;
+  }
+  #booknow-desktop{
+    display: none;
+  }
+  #mobile_booknow{
+    display: block;
+  }
+  .lang_block{
+    right: 0;
+    padding: 0 10px!important;
+  }
+	.imgservice{
+		z-index:1;
+	}
+	.homeservice:hover .imgserviceopen{
+		z-index:104;
+	}
+	.imgservice{
+		margin-top: 0;
+	}
+	.styled-block.type-3{
+		width:100%;
+		left:0;
+		right:0;
+	}
+	.book-now a{
+		padding: 20px 10px;
+	}
+	.heading_group_sc .background_title{
+		font-size: 6em;
+	}
+	.banner-text{
+		/* line-height:125px; */
+    line-height: 60px;
+	}
+	.p-box{
+		padding:15px;
+		text-align:justify!important;
+		font-size:15px;
+	}
+	.footer-line{
+		width:100%;
+	}
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 767px)
+and (orientation : portrait)
+{  
+
+#regenzamulti
+{
+	padding-top:10px;
+}
+.book-btn-covid {
+    position: relative;
+top: -1% !important;
+    padding:20px 0!important;
+}
+}
+@media only screen and (max-width: 480px) {
+	.min-height-550 {
+		/* min-height: 460px; */
+    min-height: 200px;
+	}
+	.fw-iconbox{
+		padding:0px 20px;
+	}
+	.brz-bg-content{
+		padding:20px;
+	}
+	.styled-block.type-3{
+		height: 46%;
+	}
+
+	.h-slider {
+    height: 200px;
+}
+
+    .h-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  .banner-text{
+    font-size: 50px;
+   margin-bottom: 0;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  ul.tripadvisor-logos li{
+     width: 50%;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	#homeservices {
+		margin-top: -105px !important;
+	}
+	.tab .nav-tabs > li a{
+		font-size:13px;
+		letter-spacing:0;
+	}
+  .pt-ipad{
+    padding-top: 3%;
+  }
+  .widget_nav_menu ul > li a{
+    font-size: 12px;
+  }
+}
+
+
+/* @media only screen and (min-device-width:640) and (max-device-width : 765) and (orientation : landscape){
+  #mobile_booknow {
+    display: block;
+}
+#booknow-desktop {
+    display: none;
+}
+} */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 767px)
+and (orientation : landscape)
+{  
+#regenzamulti
+{
+	padding-top:10px;
+}
+.book-btn-covid {
+    position: relative;
+top: -1% !important;
+     padding:20px 0!important;
+}
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+
+}
+
+@media only screen
+and (min-device-width : 670px)
+and (max-device-width : 960px)  {
+
+
+}

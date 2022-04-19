@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://greenvelvetresort.in/</loc>
+  <lastmod>2019-12-19T13:23:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/index.html</loc>
+  <lastmod>2019-12-19T13:23:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/accommodation.html</loc>
+  <lastmod>2020-01-01T10:39:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/offers.html</loc>
+  <lastmod>2019-12-18T11:49:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/dining.html</loc>
+  <lastmod>2019-12-19T13:28:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/gallery.html</loc>
+  <lastmod>2019-12-18T11:49:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/sightseeing.html</loc>
+  <lastmod>2019-12-18T11:49:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://greenvelvetresort.in/contact.html</loc>
+  <lastmod>2019-12-18T11:49:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
